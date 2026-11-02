@@ -1,0 +1,8 @@
+# PySpark 3.0.0 requires Java 8 or 11 and Python 3.6 - 3.8
+pyspark==3.0.0
+kafka-python
+pymongo
+pandas
+streamlit
+streamlit-autorefresh
+plotly

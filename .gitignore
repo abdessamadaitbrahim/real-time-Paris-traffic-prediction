@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Spark / streaming
+checkpoint*/
+checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+
+# Generated ML models (rebuild with src/train_models.py)
+models/*
+!models/.gitkeep
+
+# Local backups / secrets
+_backup_originals/
+.env
+
+# NOTE: data/data.json is tracked on purpose.
+# If it is larger than 100 MB, use Git LFS (see README).
