@@ -27,5 +27,3 @@ models/*
 _backup_originals/
 .env
 
-# NOTE: data/data.json is tracked on purpose.
-# If it is larger than 100 MB, use Git LFS (see README).
