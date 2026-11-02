@@ -1,4 +1,5 @@
 """Replays data/data.json into a Kafka topic, one message per second."""
+
 import json
 import time
 from pathlib import Path
@@ -27,5 +28,5 @@ for record in data:
     print(f"[OK] Message sent: {record}")
     time.sleep(DELAY_SECONDS)
 
-producer.flush()
+producer.flush(
 print("[DONE] All messages have been sent.")
